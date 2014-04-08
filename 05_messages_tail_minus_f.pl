@@ -30,7 +30,7 @@ POE::Session->create(
             }
          }
       },
-      got_error => sub { warn "$_[ARG0]\n" }, 
+      got_error => sub { print "ERROR:".$_[ARG0]."\n" }, 
       got_log_rollover => sub { print "RESETTED\n"; },
    },
    args => ["/root/test.log"],
