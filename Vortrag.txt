@@ -14,7 +14,7 @@
   * Keine Mutexes
   * Pro CPU bessere Performance
 * Nachteile zu Multithreading
-  * Multi-CPU Nutzung nur �ber Fork
+  * Multi-CPU Nutzung nur ueber Fork
   * Schlechtere "Liveness"
 
 === Sonstiges ===
