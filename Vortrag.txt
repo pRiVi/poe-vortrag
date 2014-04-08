@@ -1,0 +1,21 @@
+=== Vorteile ===
+* Sessions
+  * Speicher
+  * Resourcen -> Filedescriptoren
+* Wenig Code
+* Parallelisierbarkeit und Kombinierbarkeit
+* Ideale Bindung an Unix-Betriebssysteme
+
+=== Non-Blocking vs. Multithreading ===
+* Logische Parallelisierbarkeit
+* Vorteile zu Multithreading
+  * Debugbarkeit
+  * Keine Speicherkorruption
+  * Keine Mutexes
+  * Pro CPU bessere Performance
+* Nachteile zu Multithreading
+  * Multi-CPU Nutzung nur über Fork
+
+=== Sonstiges ===
+http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/
+http://poe.perl.org/?POE_Cookbook
