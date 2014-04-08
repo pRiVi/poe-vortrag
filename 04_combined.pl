@@ -17,7 +17,7 @@ POE::Session->create(
          $_[HEAP]->{first} = 0;
       },
       got_line => sub { print "ONREAD:".$_[ARG0]."\n"; },
-      got_error => sub { print "ERROR:".$_[ARG0]."\n" }, 
+      got_error => sub { print "ERROR:".$_[ARG0]."\n"; }, 
       got_log_rollover => sub { print "RESETTED\n"; },
    },
    args => ["/root/test.log"],
